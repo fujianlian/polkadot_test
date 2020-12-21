@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@polkadot/api": "^2.4.1",
+    "@polkadot/keyring": "^3.6.1",
+    "@polkadot/util-crypto": "^3.6.1",
+    "@substrate/txwrapper": "^3.10.4",
+    "node-fetch": "^2.6.1",
+    "utf8": "^3.0.0"
+  }
+}

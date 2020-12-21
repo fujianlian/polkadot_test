@@ -1,0 +1,42 @@
+{
+    "Address": "AccountId",
+    "LookupSource": "AccountId",
+    "ServiceType": {
+      "message": ""
+    },
+    "Issuer": {
+      "did": "u32",
+      "website": "Vec<u8>",
+      "endpoint": "Vec<u8>",
+      "short_description": "Vec<u8>",
+      "long_description": "Vec<u8>",
+      "request_data": "Vec<u8>"
+    },
+    "DidPublicKey": {
+      "id": "Vec<u8>",
+      "encrypt_type": "Vec<u8>",
+      "publicKeyHex": "T::AccountId"
+    },
+    "DidService": {
+      "id": "Vec<u8>",
+      "encrypt_type": "Vec<u8>",
+      "serviceEndpoint": "Vec<u8>"
+    },
+    "DidProof": {
+      "encrypt_type": "Vec<u8>",
+      "creator": "Vec<u8>",
+      "signatureValue": "Vec<u8>"
+    },
+    "DidDoc": {
+      "context": "Vec<u8>",
+      "id": "Vec<u8>",
+      "version": "u32",
+      "created": "Vec<u8>",
+      "updated": "Vec<u8>",
+      "publicKey": "Vec<DidPublicKey>",
+      "authentication": "Vec<u8>",
+      "recovery": "Vec<u8>",
+      "service": "Vec<DidService>",
+      "proof": "Vec<DidProof>"
+    }
+  }
