@@ -167,7 +167,7 @@ function rpcToNode(rpcEndpoint, method, params) {
 }
 
 async function initApi() {
-  const provider = new WsProvider('ws://10.200.79.72:10032');
+  const provider = new WsProvider('wss://westend-rpc.polkadot.io');
   provider.on('connected', () => {
     console.log('===> provider has been connected to the endpoint');
   });
